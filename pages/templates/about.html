@@ -1,0 +1,75 @@
+{% extends "_base.html" %}
+
+{% load i18n %}
+{% load static %}
+
+{% block title %} about me {% endblock title %}
+
+{%block content%}
+
+            <!-- Content -->
+            <div class="col-12 col-md-12 col-lg-10">
+                
+    <div class="box box-content">
+        <!-- About -->
+        <div class="pb-0 pb-sm-2">
+            <h1 class="title title--h1 first-title title__separate">{% trans 'About Me' %}</h1>
+            <p> {% trans "I am Mohammad Partonia, a Back-End developer and python developer. Since 2023 I&#x27;ve been working in web development and server side architecture designing and I allocated my whole life and time to it." %} </p>
+            
+        </div>
+
+        <!-- What -->
+        
+            <div class="mt-1">
+                <h2 class="title title--h3">What I Do</h2>
+                <div class="row">
+                    
+                        <!-- Case Item -->
+                        <div class="col-12 col-lg-6">
+                            <div class="case-item">
+                                <img class="case-item__icon" src="{% static 'icons/icon-dev.svg' %}" alt="API Development"/>
+                                <div>
+                                    <h3 class="title title--h4">API Development</h3>
+                                    <p class="case-item__caption">API Development based on different scenarios like E-Commerce, ML and ...</p>
+                                </div>
+                            </div>
+                        </div>
+                    
+                        <!-- Case Item -->
+                        <div class="col-12 col-lg-6">
+                            <div class="case-item">
+                                <img class="case-item__icon" src="{% static 'icons/icon-dev.svg' %}" alt="Back-End Development"/>
+                                <div>
+                                    <h3 class="title title--h4">Back-End Development</h3>
+                                    <p class="case-item__caption">Back-End Development based on different scenarios like E-Commerce, Personal website and ...</p>
+                                </div>
+                            </div>
+                        </div>
+                    
+                        <!-- Case Item -->
+                        <div class="col-12 col-lg-6">
+                            <div class="case-item">
+                                <img class="case-item__icon" src="{% static 'icons/icon-dev.svg' %}" alt="Server side architecture design"/>
+                                <div>
+                                    <h3 class="title title--h4">Server side architecture design</h3>
+                                    <p class="case-item__caption">Designing and implementing server side architecture</p>
+                                </div>
+                            </div>
+                        </div>
+                    
+                        <!-- Case Item -->
+                        <div class="col-12 col-lg-6">
+                            <div class="case-item">
+                                <img class="case-item__icon" src="{% static 'icons/icon-design.svg' %}" alt="Consulting regarding digital infrastructure development"/>
+                                <div>
+                                    <h3 class="title title--h4">Consulting regarding digital infrastructure development</h3>
+                                    <p class="case-item__caption">Consulting regarding digital infrastructure development based on business exact needs</p>
+                                </div>
+                            </div>
+                        </div>
+                    
+                </div>
+            </div>
+        
+    </div>
+{%endblock content%}

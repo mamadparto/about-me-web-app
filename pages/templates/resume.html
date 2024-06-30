@@ -1,0 +1,81 @@
+{% extends '_base.html' %}
+
+{% load static %}
+
+{% block title %}
+    resume
+{% endblock %}
+
+{% block content %}
+    <!-- Content -->
+    <div class="col-12 col-md-12 col-lg-10">
+
+        <div class="box box-content">
+            <div class="pb-2">
+                <h1 class="title title--h1 first-title title__separate">Resume</h1>
+            </div>
+
+            <!-- Experience -->
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="title title--h3">
+                        <img src="{% static 'icons/icon-experience.svg' %}"
+                             class="title-icon" alt="Experience"/>
+                        Experience
+                    </h2>
+                    <div class="timeline">
+                        <!-- Item -->
+                        <article class="timeline__item">
+                            <h5 class="title title--h5 timeline__title">
+                                python developer
+                            </h5>
+                            <span class="timeline__period">2022 — Present</span>
+                            <p class="timeline__description">
+
+                                {% comment %} Since 2022 I started to contribute in server side architecture designing. {% endcomment %}
+
+                            </p>
+                        </article>
+
+                        <!-- Item -->
+                        <article class="timeline__item">
+                            <h5 class="title title--h5 timeline__title">
+                                Back-End Developer
+                            </h5>
+                            <span class="timeline__period">2023 — Present</span>
+                            <p class="timeline__description">
+
+                                Since 2023 I work as a Back-End Developer and contribute in server side development.
+
+                            </p>
+                        </article>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Skills -->
+
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="title title--h3">My Skills</h2>
+                    <div class="box box__border">
+
+                        <!-- Progress -->
+                        {% for key, value in coding_skills.items %}
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar"
+                                     aria-valuenow="{{ value }}" aria-valuemin="0" aria-valuemax="100">
+                                    <div class="progress-text">
+                                        <span>{{ key }}</span>
+                                        <span>{{ value }}%</span>
+                                    </div>
+                                </div>
+                                <div class="progress-text"><span>{{ key }}</span></div>
+                            </div>
+                        {% endfor %}
+
+                    </div>
+                </div>
+            </div>
+
+{% endblock content %}

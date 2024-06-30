@@ -1,0 +1,68 @@
+{% extends '_base.html' %}
+
+{% block title %}
+    project
+{% endblock %}
+
+
+{% block content %}
+    <!-- Content -->
+    <div class="col-12 col-md-12 col-lg-10">
+
+    <div class="box box-content">
+        <div class="pb-2">
+            <h1 class="title title--h1 first-title title__separate">Projects</h1>
+        </div>
+
+        <!-- Filter -->
+        <div class="select">
+            <span class="placeholder">Select Category</span>
+            <ul class="filter">
+                <li class="filter__item">Category</li>
+                <li class="filter__item active" data-filter="*">
+                    <a class="filter__link active" href="#">All</a>
+                </li>
+
+                <li class="filter__item" data-filter=".project-category-3">
+                    <a class="filter__link" href="#">E-Commerce</a>
+                </li>
+
+                <li class="filter__item" data-filter=".project-category-4">
+                    <a class="filter__link" href="#">Online Learning</a>
+                </li>
+
+            </ul>
+        </div>
+
+        <!-- Gallery -->
+        <div class="gallery-grid js-grid-row js-filter-container">
+            <div class="gutter-sizer"></div>
+
+            <!-- Item 1 -->
+                    {% for project in projects %}
+                    <figure class="gallery-grid__item project-category-3">
+                        <div class="gallery-grid__image-wrap">
+                            {% if project.site_cover %}
+                                <img class="gallery-grid__image cover lazyload" data-zoom src="{{ project.site_cover.url }}" alt="..."/>
+                            {% endif %}
+                        </div>
+                        <figcaption class="gallery-grid__caption">
+                            <h4 class="title title--h6 gallery-grid__title">
+                                {{project.title}}
+                                <span class="badge text-white" style="background: linear-gradient(142.17deg, #3086FF 6.66%, #304CFD 91.48%)">
+                                    {{project.sit_type}}
+                                </span>
+                            </h4>
+                            <a href="{{project.site_linke}}" target="_blank"
+                               class="gallery-grid__category">{{project.site_linke}}</a>
+                        </figcaption>
+                    </figure>
+    
+                    {% endfor %}
+                     
+        </div><!-- Gallery End -->
+    </div>
+
+{% endblock %}
+
+

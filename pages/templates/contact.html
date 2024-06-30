@@ -1,0 +1,52 @@
+{% extends '_base.html' %}
+
+{% load static %}
+
+{% block title %}
+    contact
+{% endblock %}
+
+{% block content %}
+    <!-- Content -->
+    <div class="col-12 col-md-12 col-lg-10">
+
+        <div class="box box-content">
+            <!-- About -->
+            <div class="pb-0 pb-sm-2">
+                <h1 class="title title--h1 first-title title__separate">Contact Me</h1>
+            </div>
+
+            <!-- What -->
+            <div class="mt-1">
+                <div class="row">
+                    <!-- Case Item -->
+                    <div class="col-12 col-lg-6">
+                        <div class="case-item">
+                            <img class="case-item__icon" src="{% static 'icons/icon-app.svg' %}"
+                                 alt="Phone"/>
+                            <div>
+                                <h3 class="title title--h4">
+                                    <a href="tel:+989388799476">+989388799476</a>
+                                </h3>
+                                <p class="case-item__caption">My Phone Number</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Case Item -->
+                    <div class="col-12 col-lg-6">
+                        <div class="case-item">
+                            <img src="{% static 'icons/icon-design.svg' %}"
+                                 alt="partonia.m@gmail.com" class="case-item__icon"/>
+                            <div>
+                                <h3 class="title title--h4">
+                                    <a href="mailto:partonia.m@gmail.com">partonia.m@gmail.com</a>
+                                </h3>
+                                <p class="case-item__caption">My Email</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+{% endblock %}
