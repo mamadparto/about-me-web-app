@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-23 22:19+0330\n"
+"POT-Creation-Date: 2024-08-01 14:04+0330\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,51 +16,54 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
+#: .\404.html:15
+msgid "Ooooops! 404"
+msgstr "Ooooops! 404"
 
-#: .\_base.html:57
+#: .\404.html:17
+msgid "I cannot find the file you requested!"
+msgstr "من نمی توانم فایل مورد نظر شما را پیدا کنم"
+
+#: .\_base.html:9 .\_base.html:56
 msgid "Mohammad Partonia"
 msgstr "محمد پرتونیا"
 
-#: .\_base.html:58
+#: .\_base.html:57
 msgid "Back-End Developer"
-msgstr "توسعه دهنده Back-End"
+msgstr "Back-End توسعه دهنده "
 
-#: .\_base.html:58
+#: .\_base.html:57
 msgid "Python Developer"
 msgstr "توسعه دهنده Python"
 
-#: .\_base.html:75
-msgid "Language"
-msgstr "زبان"
-
-#: .\_base.html:103
+#: .\_base.html:104
 msgid "Email"
 msgstr "ایمیل"
 
-#: .\_base.html:106
+#: .\_base.html:107
 msgid "Phone"
 msgstr "تلفن"
 
-#: .\_base.html:111
+#: .\_base.html:112
 msgid "Location"
 msgstr "مکان"
 
-#: .\_base.html:111
+#: .\_base.html:112
 msgid "Iran - Tabriz"
 msgstr "ایران - تبریز"
 
-#: .\_base.html:125
+#: .\_base.html:126
 msgid "About Me"
 msgstr "درباه من"
 
-#: .\_base.html:130
+#: .\_base.html:131
 msgid "Resume"
 msgstr "رزومه"
 
-#: .\_base.html:135
+#: .\_base.html:136
 msgid "Projects"
-msgstr "پروژه "
+msgstr "پروژه"
 
-#: .\_base.html:140
+#: .\_base.html:141
 msgid "Contact"
 msgstr "تماس"

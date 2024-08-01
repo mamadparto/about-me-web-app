@@ -1,5 +1,7 @@
 {% extends "_base.html" %}
 
+{% load i18n %}
+
 {% block title %}
 404
 {% endblock title %}
@@ -10,9 +12,9 @@
 
     <div class="box box-content">
 
-        <h1 > Ooooops! 404</h1>
+        <h1 > {% trans "Ooooops! 404" %}</h1>
 
-        <h5>I cannot find the file you requested!</h5>
+        <h5>{% trans "I cannot find the file you requested!" %}</h5>
    
         <div class="gallery-grid js-grid-row js-filter-container">
             <div class="gutter-sizer"></div>
