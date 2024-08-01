@@ -8,7 +8,7 @@ def about_page(request):
 
 
 def resume_page(request):
-    coding_skills = {'git': 40, 'django': 55, 'python': 45, 'html': 25, 'css': 10, 'javascript': 0, }
+    coding_skills = { 'django': 64, 'python': 46, 'git': 40, 'html': 25, 'docker': 23, 'css': 10,}
     return render(request, "resume.html", {'coding_skills': coding_skills})
 
 

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-23 22:26+0330\n"
+"POT-Creation-Date: 2024-08-01 14:03+0330\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,13 +16,122 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
+#: .\templates\about.html:6
+msgid "about me"
+msgstr "درباره من"
+
 #: .\templates\about.html:16
 msgid "About Me"
-msgstr "درباره من "
+msgstr "درباره من"
 
 #: .\templates\about.html:17
 msgid ""
-"I am Mohammad Partonia, an experienced Back-End developer and python "
-"developer. Since 2019 I&#x27;ve been working in web development and server "
-"side architecture designing and I allocated my whole life and time to it."
-msgstr "من محمد پرتونیا هستم یک توسعه دهنده بک اند و پایتون"
+"I am Mohammad Partonia, a Back-End developer and python developer. Since "
+"2023 I&#x27;ve been working in web development and server side architecture "
+"designing and I allocated my whole life and time to it."
+msgstr "من امین واصف پور هستم، یک توسعه دهنده با تجربه Back-End و تازه کاری در حوزه DevOps. از سال ۱۳۹۹ فعالیت خودم رو در زمینه توسعه وب و معماری سمت سرور شروع کردم و از آن موقع تمام وقت و توان خودم را صرف یادگیری و پیشرفت در این حوزه کرده ام.
+
+"
+
+#: .\templates\about.html:24
+msgid "What I Do"
+msgstr "کاری که انجام می دهم"
+
+#: .\templates\about.html:32
+msgid "API Development"
+msgstr "توسعه API"
+
+#: .\templates\about.html:33
+msgid ""
+"API Development based on different scenarios like E-Commerce, ML and ..."
+msgstr "توسعه API بر اساس سناریو ها و معماری های مختلف"
+
+#: .\templates\about.html:43
+msgid "Back-End Development"
+msgstr "Back-End توسعه "
+
+#: .\templates\about.html:44
+msgid ""
+"Back-End Development based on different scenarios like E-Commerce, Personal "
+"website and ..."
+msgstr "توسعه سمت Back-End برای انواع سناریو های دیتا محور و فروشگاهی و ..."
+
+#: .\templates\about.html:54
+msgid "Server side architecture design"
+msgstr "طراحی و ایجاد معماری زیرساخت سرور"
+
+#: .\templates\about.html:55
+msgid "Designing and implementing server side architecture"
+msgstr "طراحی، کانفیگ و ایجاد معماری سمت زیرساخت سرور پروژه ها"
+
+#: .\templates\about.html:65
+msgid "Consulting regarding digital infrastructure development"
+msgstr "مشاوره در طراحی زیرساخت دیجیتال"
+
+#: .\templates\about.html:66
+msgid ""
+"Consulting regarding digital infrastructure development based on business "
+"exact needs"
+msgstr "مشاوره در خصوص طراحی و ایجاد زیرساخت دیجیتال براساس نیاز کسب و کار"
+
+#: .\templates\contact.html:7
+msgid "contact"
+msgstr "تماس"
+
+#: .\templates\contact.html:17
+msgid "Contact Me"
+msgstr "تماس با من"
+
+#: .\templates\contact.html:32
+msgid "My Phone Number"
+msgstr "شماره تلفن من"
+
+#: .\templates\contact.html:45
+msgid "My Email"
+msgstr "ایمل من"
+
+#: .\templates\project.html:6
+msgid "project"
+msgstr "پروژه"
+
+#: .\templates\project.html:16
+msgid "Projects"
+msgstr "پروژه ها"
+
+#: .\templates\resume.html:7
+msgid "resume"
+msgstr "رزمه"
+
+#: .\templates\resume.html:16
+msgid "Resume"
+msgstr "رزمه"
+
+#: .\templates\resume.html:25
+msgid "Experience"
+msgstr "تجربه"
+
+#: .\templates\resume.html:31
+msgid "python developer"
+msgstr "توسعه دهنده python"
+
+#: .\templates\resume.html:33
+msgid "2022 — Present"
+msgstr "2022 - حاضر "
+
+#: .\templates\resume.html:45
+msgid "Back-End Developer"
+msgstr "توسعه دهنده Back-End"
+
+#: .\templates\resume.html:47
+msgid "2023 — Present"
+msgstr "2023 - حاضر "
+
+#: .\templates\resume.html:50
+msgid ""
+"Since 2023 I work as a Back-End Developer and contribute in server side "
+"development."
+msgstr "از سال ۱۳۹۹ من به عنوان توسعه دهنده Back-End فعالیت می کنم."
+
+#: .\templates\resume.html:62
+msgid "My Skills"
+msgstr "مهارت من"

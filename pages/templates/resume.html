@@ -1,9 +1,10 @@
 {% extends '_base.html' %}
 
 {% load static %}
+{% load i18n %}
 
 {% block title %}
-    resume
+    {% trans "resume" %}
 {% endblock %}
 
 {% block content %}
@@ -12,7 +13,7 @@
 
         <div class="box box-content">
             <div class="pb-2">
-                <h1 class="title title--h1 first-title title__separate">Resume</h1>
+                <h1 class="title title--h1 first-title title__separate">{% trans "Resume" %}</h1>
             </div>
 
             <!-- Experience -->
@@ -21,15 +22,15 @@
                     <h2 class="title title--h3">
                         <img src="{% static 'icons/icon-experience.svg' %}"
                              class="title-icon"/>
-                        Experience
+                        {% trans "Experience" %}
                     </h2>
                     <div class="timeline">
                         <!-- Item -->
                         <article class="timeline__item">
                             <h5 class="title title--h5 timeline__title">
-                                python developer
+                                {% trans "python developer" %}
                             </h5>
-                            <span class="timeline__period">2022 — Present</span>
+                            <span class="timeline__period">{% trans "2022 — Present" %}</span>
                             <p class="timeline__description">
 
                                 {% comment %} Since 2022 I started to contribute in server side architecture designing. {% endcomment %}
@@ -40,12 +41,12 @@
                         <!-- Item -->
                         <article class="timeline__item">
                             <h5 class="title title--h5 timeline__title">
-                                Back-End Developer
+                                {% trans "Back-End Developer" %}
                             </h5>
-                            <span class="timeline__period">2023 — Present</span>
+                            <span class="timeline__period">{% trans "2023 — Present" %}</span>
                             <p class="timeline__description">
 
-                                Since 2023 I work as a Back-End Developer and contribute in server side development.
+                                {% trans "Since 2023 I work as a Back-End Developer and contribute in server side development." %}
 
                             </p>
                         </article>
@@ -57,7 +58,7 @@
 
             <div class="row">
                 <div class="col-12">
-                    <h2 class="title title--h3">My Skills</h2>
+                    <h2 class="title title--h3">{% trans "My Skills" %}</h2>
                     <div class="box box__border">
 
                         <!-- Progress -->

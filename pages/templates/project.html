@@ -1,7 +1,9 @@
 {% extends '_base.html' %}
 
+{% load i18n %}
+
 {% block title %}
-    project
+    {% trans "project" %}
 {% endblock %}
 
 
@@ -11,10 +13,10 @@
 
     <div class="box box-content">
         <div class="pb-2">
-            <h1 class="title title--h1 first-title title__separate">Projects</h1>
+            <h1 class="title title--h1 first-title title__separate">{% trans "Projects" %}</h1>
         </div>
 
-        <!-- Filter -->
+        {% comment %} <!-- Filter -->
         <div class="select">
             <span class="placeholder">Select Category</span>
             <ul class="filter">
@@ -32,7 +34,7 @@
                 </li>
 
             </ul>
-        </div>
+        </div> {% endcomment %}
 
         <!-- Gallery -->
         <div class="gallery-grid js-grid-row js-filter-container">
